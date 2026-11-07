@@ -1,0 +1,5 @@
+[project]
+name="multimodal-rag"
+version="1.0.0"
+requires-python=">=3.11"
+dependencies=["transformers","sentence-transformers","faiss-cpu","rank-bm25","fastapi","uvicorn","pydantic"]
